@@ -87,7 +87,7 @@ format_phenocam = function(path = "~",
       start = 1980,
       end = end,
       internal = TRUE,
-      quiet = TRUE
+      silent = TRUE
     )$data,
     silent = TRUE)
 
@@ -226,7 +226,7 @@ format_phenocam = function(path = "~",
     start = end,
     end = end,
     internal = TRUE,
-    quiet = TRUE
+    silent = TRUE
   ))
 
   if (inherits(daymet_test,"try-error")){
